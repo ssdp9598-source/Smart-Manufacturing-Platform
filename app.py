@@ -368,7 +368,7 @@ elif choice == "Product Defect Detection":
         st.image(
             uploaded_image,
             caption="Product Image",
-            use_container_width=True
+            width="stretch"
         )
 
         st.divider()
